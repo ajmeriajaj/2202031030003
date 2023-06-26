@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+
+}
+
+.mobile-content{
+    background-image: url(./mak-N96WL4SwTYQ-unsplash.jpg);
+    height: 500px;
+    width: 500px;
+    margin-top: 50px;
+    border-radius: 50px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.mobile-content:hover{
+    background-image: url(./mak-N96WL4SwTYQ-unsplash.jpg);
+    background-size: cover;
+    transition: 0.3s;
+
+
+
+}

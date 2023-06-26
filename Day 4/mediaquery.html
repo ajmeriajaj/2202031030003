@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="./mediaQueary.css">
+    <style>
+    .box{
+        font-size: 25px;
+        background-color: black;
+        text-align: center;
+        color: azure;
+        display: none;
+
+    }
+    @media (max-width:500px){
+        #box-1{
+            display: block;
+            background-color: rgb(14, 14, 13);
+        }
+
+        @media (min-width:300px) and (max-width:500px){
+        #box-2{
+            display: block;
+            background-color: rgb(32, 34, 34);
+        }   
+        }
+
+        @media (min-width:500px) and (max-width:800px){
+        #box-3{
+            display: block;
+            background-color: rgb(2, 31, 31);
+        }   
+    }
+    @media (max-width:800px){
+        #box-4{
+            display: block;
+            background-color: rgb(3, 23, 23);
+        }   
+    }
+    }
+
+      </style>
+</head>
+<body>
+    <div class="box" id="box-1">iphone</div>
+    <div class="box" id="box-2">android</div>
+    <div class="box" id="box-3">ipadmini</div>
+    <div class="box" id="box-4">microsoft lumia</div>
+
+</body>
+
