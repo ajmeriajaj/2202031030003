@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPERATORS</title>
+</head>
+<body>
+    <h2>Logical Operators</h2>
+    <h4>Logical AND assignment operator</h4>
+    <p id="Demo"></p>
+    <script>
+
+        let a = 100;
+        a &&= 50;
+        document.getElementById("Demo").innerHTML = "The Value Of a is: " + a;
+    </script>
+
+    <h4>Logical OR assignment operator</h4>
+    <p id="Demo1"></p>
+    <script>
+
+        let b = undefined;
+        b ||= 50;
+        document.getElementById("Demo1").innerHTML = "The Value Of b is: " + b;
+    </script>
+
+    <h4>Nullish coalescing assignment operator</h4>
+    <p id="Demo2"></p>
+    <script>
+
+        let c;
+        document.getElementById("Demo2").innerHTML = c ??= 50;
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    color: rgb(151, 194, 231);
+    text-shadow: 2px 2px 2px #0e3049;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-1{
+background-image: url('../Day4/mak-N96WL4SwTYQ-unsplash.jpg');
+width: 100%;
+height: 100vh;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPERATORS</title>
+</head>
+<body>
+    <h2>Shift Operators</h2>
+    <h4>Left Shift Assignment Operator</h4>
+    <p id="Demo"></p>
+    <script>
+
+        let a = 100;
+        a <<= 5;
+        document.getElementById("Demo").innerHTML = "The Value Of a Is: " + a;
+    </script>
+    
+    <h4>Right Shift Assignment Operator</h4>
+    <p id="Demo1"></p>
+    <script>
+
+        let b = 100;
+        b >>= 5;
+        document.getElementById("Demo1").innerHTML = "The Value Of a Is: " + b;
+    </script>
+
+    <h4>Unsigned Right Shift Assignment Operator</h4>
+    <p id="Demo2"></p>
+    <script>
+
+        let c = -100;
+        c >>>= 5;
+        document.getElementById("Demo2").innerHTML = "The Value Of a Is: " + c;
+    </script>
+
+</body>
+</html>

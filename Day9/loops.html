@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOOPS</title>
+</head>
+<body>
+    <h3>For Loops In JavaScript</h3>
+
+    <p id="Demo"></p>
+
+    <script>
+        const company  = ["Infosys", "Wipro", "ThoughtWork", "Microsoft"];
+
+         let text = "";
+         for (let index = 0; index < company.length; index++) {
+            text += company[index] + "<br>";           
+         } 
+
+         document.getElementById("Demo").innerHTML = text;
+    </script>
+
+
+</body>
+</html>

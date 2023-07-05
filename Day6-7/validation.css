@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.login-info {
+    display: flex;
+    width: 100%;
+    height: 700px;
+ text-align: center;
+ justify-content: center;
+
+}
+.log-info2 {
+    border-radius: 20px;
+    width: 60%;
+    height: 400px;
+    margin-top: 15%;
+    text-align: center;
+    background-color: rgb(209, 207, 218);
+}
+.log-info2 h1{
+ text-align: center;
+}
+.log-info2 label{
+    font-size: 18px;
+}
+.log-info2 input{
+    width: 90%;
+    height: 25px
+}
+.btn-1{
+    margin-top: 20px;
+    height: 25px;
+    width: 20%;
+}

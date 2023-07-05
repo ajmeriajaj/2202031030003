@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELSE IF Statement</title>
+</head>
+<body>
+    <h3>JavaScript ELSE-IF Statement</h3>
+    <input type="text" id="in"></input>
+    <button id="send" onclick="myFunction()">sumit</button>
+    <p id="demo"></p>
+
+    <script>
+    function myFunction() {
+        var x = document.getElementById("in").value;
+        if (x <= 5 ) {
+            document.getElementById("demo").innerHTML = "Ajaj"
+        }
+
+        else if (x <= 3 ) {
+            document.getElementById("demo").innerHTML = "ASOIT"
+        }
+
+        else {
+            document.getElementById("demo").innerHTML = "Silver Oak University"
+        }
+        
+        
+    }
+    </script>
+
+</body>
+</html>
