@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#hide").click(function(){
+                $("p").hide();
+            });
+            $("#show").click(function(){
+                $("p").show();
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <h3>jquery Hide Event</h3>
+    <p>Silver Oak University</p>
+    <p>B.Tech - IT</p>
+    <button id="hide">Hide Paragraph Tag</button>
+    <button id="show">Show Paragraph Tag</button>
+</body>
+</html>
