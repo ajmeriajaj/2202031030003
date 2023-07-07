@@ -1,0 +1,392 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: rgb(4, 4, 51);
+        color: white;
+        font-family: 'poppins', sans-serif;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 75px;
+        background-color: rgb(17, 17, 115);
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0 23px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    nav ul li a:hover {
+        color: rgb(78, 78, 134);
+        font-size: 1.04rem;
+    }
+
+    main hr {
+        border: 0;
+        background-color: rgb(102, 102, 208);
+        height: 3px;
+        margin: 40px 84px;
+    }
+
+    .left {
+        font-size: 1.5rem;
+        margin: 30px 0;
+    }
+
+    .First {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 110px 0;
+    }
+
+    .First>div {
+        width: 30%;
+    }
+
+    .leftsection {
+        font-size: 3rem;
+
+    }
+
+    .leftsection .buttons {
+        padding: 40px 0;
+    }
+
+    .leftsection .btn {
+        padding: 12px;
+        background-color: rgb(100, 100, 187);
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .rightsection img {
+        width: 75%;
+        border-radius: 50%;
+    }
+
+    .purple {
+        color: rgb(161, 111, 207);
+    }
+
+    .text-gray {
+        color: gray;
+    }
+
+    #element {
+        color: rgb(161, 111, 207);
+    }
+
+    .secondsection {
+        max-width: 80vw;
+        margin: auto;
+        height: 65vh;
+
+    }
+
+    .secondsection h1 {
+        font-size: 1.9rem;
+    }
+
+    .secondsection .box {
+        position: relative;
+        left: 20px;
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+
+    }
+
+    .secondsection .vertical {
+        justify-content: center;
+        height: 93px;
+        width: 1px;
+        position: relative;
+        left: 200px;
+        background-color: white;
+        margin: 0 100px;
+    }
+
+    .image-top {
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+    }
+
+    .vertical-title {
+        position: relative;
+        top: 75px;
+        width: 150px;
+        font-size: 14px;
+        left: -2px;
+    }
+
+    .vertical-desc {
+        position: relative;
+        top: 86px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+        left: -2px;
+
+    }
+
+    .thirdsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 110px 0;
+    }
+
+    .thirdsection > div {
+        width: 30%;
+    }
+
+    .thirdsection h1 {
+        font-size: 4.03rem;
+    }
+
+
+
+    .leftsection1 {
+        font-size: 3rem;
+
+    }
+
+    .about-information {
+        display: flex;
+        margin-top: 23px;
+    }
+
+    .about-details {
+        margin-right: 50px;
+    }
+
+    .about-details ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .about-details ul li {
+        margin-bottom: 5px;
+        font-size: 28px;
+    }
+
+
+
+    .rightsection1 img {
+        width: 75%;
+        border-radius: 50%;
+    }
+
+    .purple {
+        color: rgb(161, 111, 207);
+    }
+
+    .forthsection {
+        max-width: 80vw;
+        margin: auto;
+        height: 50vh;
+
+    }
+
+    .forthsection h1 {
+        font-size: 2.03rem;
+    }
+
+    /* skill section */
+    .skill-main {
+        position: relative;
+        left: 5%;
+        width: 90%;
+        height: 350px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 40px;
+        grid-row-gap: 5px;
+    }
+
+    .skill-main .skill-bar .skill-info {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 5px;
+    }
+
+    .skill-bar .bar {
+        width: 100%;
+        position: relative;
+        height: 10px;
+        background-color: #000099;
+        border-radius: 25px;
+        margin-top: 5px;
+    }
+
+    .skill-bar span {
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        background-color: rgb(161, 111, 207);
+        border-radius: 25px;
+    }
+
+    .skill-info .persantag {
+        font-weight: bold;
+    }
+
+    .skill-bar .bar .skill-html {
+        width: 70%;
+        animation: skill-html 3s;
+    }
+
+    @keyframes skill-html {
+        0% {
+            width: 0;
+        }
+
+        100% {
+            width: 70%;
+        }
+    }
+
+    .skill-bar .bar .skill-css {
+        width: 60%;
+        animation: skill-css 3s;
+    }
+
+    @keyframes skill-css {
+        0% {
+            width: 0;
+        }
+
+        100% {
+            width: 60%;
+        }
+    }
+
+    .skill-bar .bar .skill-boot {
+        width: 70%;
+        animation: skill-boot 3s;
+    }
+
+    @keyframes skill-boot {
+        0% {
+            width: 0;
+        }
+
+        100% {
+            width: 70%;
+        }
+    }
+
+    .skill-bar .bar .skill-php {
+        width: 50%;
+        animation: skill-php 3s;
+    }
+
+    .skill-bar .bar .skill-js {
+        width: 50%;
+        animation: skill-js 3s;
+    }
+
+    @keyframes skill-js {
+        0% {
+            width: 0;
+        }
+
+        100% {
+            width: 50%;
+        }
+    }
+
+    /* Skill css end  */
+
+    .fifthsection {
+        max-width: 80vw;
+        margin: auto;
+        height: 100vh;
+
+    }
+
+    .fifthsection h1 {
+        font-size: 2.03rem;
+    }
+
+    .fifthsection .text-content {
+
+        font-size: 1.5rem;
+    }
+
+    .fifthsection .connect {
+        width: 75%;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .fifthsection .connect p input {
+        width: 40%;
+        height: 40px;
+        padding: 4px 8px;
+        border-radius: 5px;
+    }
+
+    .fifthsection .connect textarea {
+        width: 40%;
+        height: 90px;
+        padding: 4px 8px;
+        border-radius: 5px;
+    }
+
+    .fifthsection .connect button {
+        padding: 17px 40px;
+        margin-top: 8px;
+        border-radius: 8px;
+    }
+
+
+    footer {
+        background-color: rgb(78, 78, 173);
+        /* height: 400px; */
+
+    }
+
+    .footer {
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+    }
+
+    .footer ul {
+        list-style: none;
+    }
+
+    .footer>div {
+        width: 175px;
+    }
+
+    footer .footer-rights {
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+    }
