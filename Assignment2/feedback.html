@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-pUA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="feedback.css">
+  <title>Feedback Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  <script src="feedback.js" defer></script>
+
+</head>
+
+
+<body>
+
+  <div class="Feedback-info">
+    <div class="feedback-info2">
+      <h2>Feedback</h2><br>
+
+      <form action="" class="was-validated">
+        <div class="mb-3 mt-3">
+          <label for="">Name</label><br>
+          <input type="text" name="Name" id="Name" placeholder="Enter Your Name" required></input>
+          <div class="valid-feedback"></div><br>
+          <div class="invalid-feedback"></div>
+        </div>
+
+        <div class="mb-3 mt-3">
+          <label for="">Email</label><br>
+          <input type="text" name="Email" id="Email" placeholder="Enter Your Email" required></input>
+          <div class="valid-feedback"></div><br>
+          <div class="invalid-feedback"></div>
+        </div>
+
+        <label for="">Your Feedback</label><br>
+        <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Send Your Feedback"></textarea><br>
+
+        <div class="rating-box">
+          <header>How was your experience?</header>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div><br>
+
+        <button class="btn-1" type="submit">Submit</button><br>
+
+      </form>
+
+    </div>
+  </div>
+
+</body>
+
+
+</html>
