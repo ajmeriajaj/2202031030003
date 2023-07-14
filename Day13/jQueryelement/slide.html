@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown("slow");
+  });
+});
+</script>
+<style> 
+#panel, #flip {
+  padding: 10px;
+  background-color:aqua;
+  border: solid 1px burlywood;
+}
+
+#panel {
+  padding: 60px;
+  display: none;
+  text-align: center;
+  }
+</style>
+</head>
+<body>
+ 
+<div id="flip">Click to slide down panel</div>
+<div id="panel">Ajaj D. Ajmeri!</div>
+
+</body>
+</html>
