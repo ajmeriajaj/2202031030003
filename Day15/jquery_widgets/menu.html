@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery ui Menu</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script>
+        $(function () {
+            $("#menu").menu();
+        });
+    </script>
+    <style>
+        .ui-menu {
+            width: 150px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h3>Cars</h3>
+
+    <ul id="menu">
+        <li class="ui-state-disabled">
+            <div>BMW</div>
+        </li>
+        <li>
+            <div>Rental Car</div>
+        </li>
+        <li>
+            <div>Cidan Car</div>
+        </li>
+        <li>
+            <div>Electronics Cars</div>
+            <ul>
+                <li class="ui-state-disabled">
+                    <div>Kia</div>
+                </li>
+                <li>
+                    <div>Hyundai</div>
+                </li>
+                <li>
+                    <div>MG</div>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <div>Standard Car</div>
+        </li>
+        <li>
+            <div>Luxury's Car</div>
+            <ul>
+                <li>
+                    <div>Rolls Royce</div>
+                    <ul>
+                        <li>
+                            <div>Automatic</div>
+                        </li>
+                        <li>
+                            <div>Manual</div>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div>Bugatti</div>
+                    <ul>
+                        <li>
+                            <div>Automatic</div>
+                        </li>
+                        <li>
+                            <div>Manual</div>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div>Mazda</div>
+                </li>
+            </ul>
+        </li>
+        <li class="ui-state-disabled">
+            <div>Specials (n/a)</div>
+        </li>
+    </ul>
+
+
+</body>
+
+</html>
